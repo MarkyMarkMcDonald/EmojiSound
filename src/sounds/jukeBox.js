@@ -14,6 +14,7 @@ const sounds = {
   ':perfect:': Sounds.kiss,
   ':perfect2:': Sounds.kiss,
   ':mario:': Sounds.marioJump,
+  ':pleaseclap:': Sounds.pleaseClap,
   ':worlds-smallest-violin:': Sounds.saddestViolin,
   ':saxophone:': Sounds.sax,
   ':snoooop': Sounds.snoopDogg,
