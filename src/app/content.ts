@@ -3,6 +3,8 @@ console.log("EmojiSound: EmojiSound Loading...");
 import jukeBox from '../sounds/jukeBox';
 
 let playingSounds = false;
+window.setTimeout(() => playingSounds = true, 3000);
+
 let onChange;
 
 chrome.runtime.sendMessage({}, (_response) => {
@@ -11,7 +13,6 @@ chrome.runtime.sendMessage({}, (_response) => {
       clearInterval(checkReady);
       const messagePane = document.querySelector('[data-qa="message_pane"]');
       onChange(messagePane);
-      playingSounds = true;
 
       let observer = new MutationObserver(onChange.bind(undefined, messagePane));
       observer.observe(messagePane, {childList: true, subtree: true});

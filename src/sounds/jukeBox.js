@@ -1,6 +1,22 @@
+import * as Sounds from '../sounds/generated_sounds'
+
 const sounds = {
+  ':sunny:': Sounds.alwaysSunny,
+  ':dadjoke:': Sounds.badumtss,
+  ':cheers:': Sounds.cheersLove,
+  ':yeehonk:': Sounds.clownHorn,
+  ':crickets:': Sounds.crickets,
+  ':xzibit:': Sounds.inception,
+  ':wrestlers:': Sounds.johnCena,
+  ':gavel:': Sounds.dunDun,
+  ':mario:': Sounds.marioJump,
+  ':worlds-smallest-violin:': Sounds.saddestViolin,
+  ':snap:': Sounds.switchSnap,
+  ':kakao-muzi-clubbing:': Sounds.whatIsLove,
+  ':windows:': Sounds.windowsError,
+  ':zelda:': Sounds.zelda,
   ':taco:': tacoSound(),
-  ':airhorn-sound-a-dj-makes-when-a-cool-beat-drops:': djAirhornSound()
+  ':airhorn-sound-a-dj-makes-when-a-cool-beat-drops:': djAirhornSound(),
 };
 
 const jukeBox = {
