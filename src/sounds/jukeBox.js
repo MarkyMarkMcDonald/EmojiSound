@@ -17,7 +17,7 @@ const sounds = {
   ':pleaseclap:': Sounds.pleaseClap,
   ':worlds-smallest-violin:': Sounds.saddestViolin,
   ':saxophone:': Sounds.sax,
-  ':snoooop': Sounds.snoopDogg,
+  ':snoooop:': Sounds.snoopDogg,
   ':snap:': Sounds.switchSnap,
   ':kakao-muzi-clubbing:': Sounds.whatIsLove,
   ':windows:': Sounds.windowsError,
